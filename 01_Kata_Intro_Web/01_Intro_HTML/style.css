@@ -1,0 +1,55 @@
+h1{
+    color: rgb(119, 134, 128);
+    background-color: rgba(69, 82, 81, 0.514);
+    font-size: 50px;
+    font-style: initial;
+    align-content: center;
+    text-align: center;
+}
+
+#primero{
+    background-color: rgba(221, 231, 221, 0.836);
+    border-radius: 5px;
+    font-size: medium;
+    margin: 0px;
+    padding: 10px;
+    display: inline;
+}
+
+#segundo{
+    background-color: rgba(221, 231, 221, 0.836);
+    border-radius: 5px;
+    font-size: medium;
+    margin: 0px;
+    padding: 10px;
+    display: inline;
+}
+
+#tercero{
+    background-color: rgba(221, 231, 221, 0.836);
+    border-radius: 5px;
+    font-size: medium;
+    margin: 0px;
+    padding: 10px;
+    display: inline;
+}
+
+p{
+    color: rgb(230, 234, 238);
+    display: inline-table;
+    font-display: arial;
+    background-color: rgba(61, 61, 56, 0.87);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.des{
+    color: rgb(233, 227, 224);
+    font-style: oblique;
+    font-size: 30px;
+    padding: 0;
+}
+
+body{
+    background-image: url(./IMG/cats.jpeg) 
+}

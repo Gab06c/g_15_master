@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenidos al club fitness</h1>
+    </header>
+<main class="general">
+    <main class="form1">
+        <fieldset>
+            <legend>Información General</legend>
+            <form  class="principal" action="" name="formulario" method="">
+                <div class="nombre">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe aqui">
+                </div>
+
+                <label for="">¿Eres miembro?</label>
+
+                <div class="miembro">
+                    <input type="radio" id="radio1" name="radio1" value="si"> Miembro
+                    <input type="radio" id="radio2" name="radio2" value="no"> No Miembro
+                </div>
+                <label for="caja">Escribe tu personalidad</label>
+                <textarea name="areatexto" id="caja" cols="10" placeholder="Escribe aqui"></textarea>
+                <div class="mail">
+                    <label for="correo">E-mail</label>
+                    <input type="email" id="correo" placeholder="E-mail" name="email">
+                </div>
+            </form>
+        </fieldset>
+    </main>
+    <main class="form2">
+            <form action="" name="formulario2" method="">
+                <div class="inst">
+                    <label for="instalaciones">Instalaciones</label>
+                    <select name="opciones" id="instalaciones">
+                        <option value="0">-</option>
+                        <option value="1">Tennis</option>
+                        <option value="2">Alberca</option>
+                        <option value="3">Yoga</option>
+                    </select>
+                </div>
+                <div class="agenda">
+                    <label for="fecha">Selecciona fecha para reservar</label>
+                    <input type="date" id="fecha" name="agendarfecha">
+                </div>
+                <div class="acuerdo">
+                    <input type="radio" id="acuerdo" name="acuerdo1" value="si"> Estoy de acuerdo con las políticas del club
+                </div>
+                <div class="enviar">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+    </main>
+</main>
+</body>
+
+</html>

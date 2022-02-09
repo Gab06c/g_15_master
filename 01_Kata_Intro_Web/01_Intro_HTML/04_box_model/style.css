@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(37, 34, 34);
+}
+
+div.top1{
+    padding: 0 0 0 1100px;
+    display: inline-block;
+}
+
+a#gmail{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display:inline-block
+}
+a#ima{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+    font-size: 14px;
+    display:inline-block
+}
+
+img.prop{
+    display:inline;
+    width: 32px;
+    height: 32px;
+    padding: 15px 10px 0 10px;   
+}
+
+div.ima1{
+    display: inline-block;
+}
+div.ima2{
+    display: inline-block;
+}
+
+img.usu{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 15px 0px 0 10px;   
+}
+
+div.google{
+    padding-top: 10px;
+    padding-left: 40%;
+    display: inline-block;
+    align-content: center;
+}
+
+input{
+    padding: 10px 10px 10px 10px;
+    margin: 50px 50px 50px 400px;
+    background-color: rgb(37, 34, 34);
+    height: 20px;
+    border: solid 0.5px gray;
+    border-radius: 20px;
+    width: 550px;
+}
+div.buttom{
+    margin-left: 530px;
+    margin-top: 400px;
+    display: inline;
+}
+
+button{
+    background-color: #303134;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+p{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 600px;
+
+}

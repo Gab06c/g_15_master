@@ -1,0 +1,212 @@
+body{
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+div.padre{
+    border: 2px solid black;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+div.hijo1 {
+    border: 2px solid red;
+    display: flex;
+    width: 25%;
+    height: 25%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+div.nieto1 {
+    border: 2px solid rgb(156, 71, 71);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieto2 {
+    border: 2px solid rgb(85, 13, 13);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieto3 {
+    border: 2px solid rgb(226, 44, 44);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.hijo2 {
+    border: 2px solid blue;
+    display: flex;
+    width: 25%;
+    height: 25%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+div.nieto4 {
+    border: 2px solid rgb(19, 96, 196);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieto5 {
+    border: 2px solid rgb(16, 151, 175);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieto6 {
+    border: 2px solid rgb(44, 123, 226);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.hijo3 {
+    border: 2px solid green;
+    display: flex;
+    width: 25%;
+    height: 25%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+div.nieto7 {
+    border: 2px solid rgb(86, 235, 165);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieto8 {
+    border: 2px solid rgb(15, 145, 101);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieto9 {
+    border: 2px solid rgb(80, 207, 63);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.madre{
+    border: 2px solid orange;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+div.hija1 {
+    border: 2px solid pink;
+    display: flex;
+    width: 25%;
+    height: 25%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+div.nieta1 {
+    border: 2px solid rgb(156, 71, 142);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieta2 {
+    border: 2px solid rgb(85, 13, 43);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieta3 {
+    border: 2px solid rgb(204, 116, 170);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.hija2 {
+    border: 2px solid rgb(139, 173, 14);
+    display: flex;
+    width: 25%;
+    height: 25%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+div.nieta4 {
+    border: 2px solid rgb(111, 209, 155);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieta5 {
+    border: 2px solid rgb(5, 58, 17);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieta6 {
+    border: 2px solid rgb(7, 180, 59);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.hija3 {
+    border: 2px solid green;
+    display: flex;
+    width: 25%;
+    height: 25%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+div.nieta7 {
+    border: 2px solid rgb(214, 194, 15);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieta8 {
+    border: 2px solid rgb(153, 214, 41);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+
+div.nieta9 {
+    border: 2px solid rgb(236, 199, 98);
+    display: flex;
+    width: 25%;
+    height: 25%;
+}

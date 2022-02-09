@@ -1,0 +1,20 @@
+div.exterior{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(199, 187, 187);
+    /* padding-top: 50px;
+    padding-bottom: 80px;
+    padding-right: 25px;
+    padding-left: 10px; */
+    padding: 50px 50px 50px 50px;
+    border: black 10px dashed;
+    margin: 100px 50px 30px 10px;
+}
+
+a{
+    height: 20px;
+    width: 60px;
+    background-color: darkcyan;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 10px;
+}

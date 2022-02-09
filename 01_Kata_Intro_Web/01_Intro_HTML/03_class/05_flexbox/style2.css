@@ -1,0 +1,92 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+}
+
+div.padre{
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-left: black 1px solid;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+}
+
+div.hija1 {
+    width: 100px;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: blue 10px solid;
+    border-right: blue 10px solid;
+}
+
+div.nieta1{
+    width: 80%;
+    height: 80%;
+    background-color: red;
+}
+
+div.hija2 {
+    width: 100px;
+    height: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    border-top: blue 10px solid;
+    border-right: blue 10px solid;
+}
+
+div.nieta2{
+    width: 80%;
+    height: 80%;
+    background-color: red;
+}
+
+div.madre {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-right: black 1px solid;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+}
+
+div.hija3{
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-bottom: blue 10px solid;
+    border-left: blue 10px solid;
+}
+
+div.nieta3{
+    width: 80%;
+    height: 80%;
+    background-color: red;
+}
+
+div.hija4{
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top: blue 10px solid;
+    border-left: blue 10px solid;
+}
+
+div.nieta4{
+    width: 80%;
+    height: 80%;
+    background-color: red;
+}
